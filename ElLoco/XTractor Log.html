@@ -1,0 +1,72 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="XTractor_Log_Style.css">
+        <title>XTractor Log</title>
+    </head>
+    <body>
+        <h1>XTractor Log</h1>
+        <div class="log-info">Project: iLikeIt<br>
+            
+Log created: 2014-06-06 08:10</div>
+        <h2>Project Archived</h2>
+        <table style="width:100%">
+            <tr class="file-info">
+                <td>File: iLikeIt.zip<br>
+                    Path: /Users/scottrichards/Code/iOS/LocSamples<br>
+                    Group: </td>
+            </tr>
+        </table>
+        <h2>Files Modified</h2>
+        <p>
+            <table style="width:100%">
+                <tr class="file-info">
+                    <td colspan="2">File: ViewController.m<br>
+                        Path: /Users/scottrichards/Code/iOS/LocSamples/iLikeIt/iLikeIt/ViewControllers</td>
+                </tr>
+                <tr class="header-row">
+                    <td style="width:50px">Line</td>
+                    <td>Change</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="line-no">22</td>
+                    <td class="original">    _salesCountLabel.text = [NSString stringWithFormat:@"Yesterday you sold %@ apps", @(1000000)];</td>
+                </tr>
+                <tr>
+                    <td class="modified">    _salesCountLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Yesterday you sold %@ apps",@""), @(1000000)];</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="line-no">23</td>
+                    <td class="original">    [_likeButton setTitle:@"You like?" forState:UIControlStateNormal];</td>
+                </tr>
+                <tr>
+                    <td class="modified">    [_likeButton setTitle:NSLocalizedString(@"You like?",@"") forState:UIControlStateNormal];</td>
+                </tr>
+            </table>
+        </p>
+        <h2>El Loco Visual Context Library</h2>
+        <div class="section-info">This library was added to your project to assist in localization.</div>
+        <table style="width:100%">
+            <tr class="file-info">
+                <td>File: ElLocoTools.h<br>
+                    Path: /Users/scottrichards/Code/iOS/LocSamples/iLikeIt/ElLocoTools<br>
+                    Group: ElLocoTools</td>
+            </tr>
+        </table>
+        <table style="width:100%">
+            <tr class="file-info">
+                <td>File: libElLocoTools.a<br>
+                    Path: /Users/scottrichards/Code/iOS/LocSamples/iLikeIt/ElLocoTools<br>
+                    Group: ElLocoTools</td>
+            </tr>
+        </table>
+        <h2>Generated Resource Files</h2>
+        <div class="section-info">New files created in the ElLoco folder and added to project.</div>
+        <table style="width:100%">
+            <tr class="file-info">
+                <td>File: Localizable.strings<br>
+                    Path: /Users/scottrichards/Code/iOS/LocSamples/iLikeIt/ElLoco/en.lproj</td>
+            </tr>
+        </table>
+    </body>
+</html>

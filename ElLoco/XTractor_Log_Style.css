@@ -1,0 +1,37 @@
+
+div.log-info {
+    font-size:medium;
+}
+
+div.section-info {
+    font-size:medium;
+}
+
+tr.file-info {
+    background-color:#eeeeee;
+}
+
+td.original {
+    background-color:#ffcccc;
+}
+
+tr.original {
+    background-color:#ffcccc;
+}
+
+td.modified {
+    background-color:#ccffcc;
+}
+
+tr.modified {
+    background-color:#ccffcc;
+}
+
+td.line-no {
+    background-color:#ffffcc;
+    width:50px;
+}
+
+tr.header-row {
+    background-color:#f4f4f4;
+}
